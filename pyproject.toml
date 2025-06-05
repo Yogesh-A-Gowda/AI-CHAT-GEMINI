@@ -1,0 +1,16 @@
+[project]
+name = "ai-chat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.3"
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "langchain>=0.3.25",
+    "langchain-core>=0.3.63",
+    "langchain-google-genai>=2.0.10",
+    "langgraph>=0.4.7",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.0",
+    "streamlit>=1.45.1",
+]
